@@ -4,8 +4,8 @@
 #define CONFIG_H
 
 // WiFi Credentials
-#define WIFI_SSID "wel"
-#define WIFI_PASSWORD "abcd1234*"
+#define WIFI_SSID "ENTER_YOUR_DETAILS"
+#define WIFI_PASSWORD "ENTER_YOUR_DETAILS*"
 
 // AWS IoT Core Configuration
 #define AWS_IOT_ENDPOINT "a2zoagruildosr-ats.iot.us-east-1.amazonaws.com"
