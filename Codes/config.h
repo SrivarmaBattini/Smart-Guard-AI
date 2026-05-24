@@ -4,15 +4,15 @@
 #define CONFIG_H
 
 // WiFi Credentials
-#define WIFI_SSID "ENTER_YOUR_DETAILS"
-#define WIFI_PASSWORD "ENTER_YOUR_DETAILS*"
+#define WIFI_SSID "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
 
 // AWS IoT Core Configuration
-#define AWS_IOT_ENDPOINT "a2zoagruildosr-ats.iot.us-east-1.amazonaws.com"
-#define AWS_MQTT_TOPIC_PUBLISH "esp32/door/image"
-#define AWS_MQTT_TOPIC_SUBSCRIBE "esp32/door/result"
+#define AWS_IOT_ENDPOINT "YOUR_AWS_IOT_ENDPOINT"
+#define AWS_MQTT_TOPIC_PUBLISH "your/device/publish/topic"
+#define AWS_MQTT_TOPIC_SUBSCRIBE "your/device/subscribe/topic"
 
-// --- Pinout Configuration (Updated as per your request) ---
+// --- Pinout Configuration ---
 // Sensors
 #define IR_SENSOR_PIN     13 // Input: Detects presence (HIGH = object nearby)
 
